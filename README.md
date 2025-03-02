@@ -15,6 +15,7 @@ Configuração e Execução:
 1.Clonar o repositório
 
 git clone https://github.com/matheus464/ControleEstoqueAPI.git
+
 cd ControleEstoqueAPI
 
 2.Configurar o Banco de Dados
