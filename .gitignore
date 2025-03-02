@@ -1,0 +1,12 @@
+# Ignorar arquivos do Visual Studio
+.vs/
+.vscode/
+*.suo
+*.user
+*.vcxproj.user
+*.db
+*.log
+appsettings.json
+appsettings.Development.json
+bin/
+obj/
