@@ -1,8 +1,8 @@
-##Controle de Estoque API
+Controle de Estoque API
 
 Esta API foi desenvolvida para gerenciar o controle de estoque, permitindo o cadastro de produtos, movimentações de entrada e saída e a categorização dos produtos.
 
-###Tecnologias Utilizadas:
+Tecnologias Utilizadas:
 
 C# com .NET 8
 Entity Framework Core
@@ -10,23 +10,22 @@ MySQL (Banco de Dados)
 Swagger para documentação
 Git para versionamento
 
-###Configuração e Execução:
+Configuração e Execução:
 
-1. Clonar o repositório
+1.Clonar o repositório
 
 git clone https://github.com/matheus464/ControleEstoqueAPI.git
 cd ControleEstoqueAPI
 
-🛠 2. Configurar o Banco de Dados
+2.Configurar o Banco de Dados
 
 Esta API utiliza MySQL. Certifique-se de que o servidor MySQL esteja rodando e crie um banco de dados chamado inventorycontrol.
-
 Se ainda não tiver o banco criado, execute no MySQL:
 
 CREATE DATABASE inventorycontrol;
 USE inventorycontrol;
 
-3. Configurar appsettings.json
+3.Configurar appsettings.json
 
 Crie um arquivo appsettings.json na raiz do projeto e configure a string de conexão com seu banco:
 
@@ -38,11 +37,11 @@ Crie um arquivo appsettings.json na raiz do projeto e configure a string de cone
 
 Importante: Não suba este arquivo para o Git, pois ele contém informações sensíveis!!!
 
-4. Restaurar Pacotes NuGet
+4.Restaurar Pacotes NuGet
 
 dotnet restore
 
-5. Executar a API
+5.Executar a API
 
 dotnet run
 
